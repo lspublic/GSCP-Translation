@@ -2,7 +2,7 @@ Aplikacion për menaxhimin e lojërave
 
 
 Mbështetja:
-- Mbikqyrëja serveit
+- Mbikqyrja e serverit
 - Detajet e lojtarit
 - Ndalim, largim si dhe ndalim bisede për lojtarët
 - Ndryshim të Hartës
@@ -10,18 +10,18 @@ Mbështetja:
 - Detaje të serverit
 - Burimet e përdorura nga serveri
 - Shikimi dhe ndryshimi i cvar
-- OGP, CW-SERV.RU, CSHost.com.ua dhe Myarena.ru (Konzole, ndalo/fillo server, të dhëna tjera)
+- OGP, CW-SERV.RU, CSHost.com.ua dhe Myarena.ru (Paneli, ndalo/fillo serverin, të dhënat tjera)
 - Kontrollimi Verzionit
 - Tabelat
 
 
-Improve translation:
+Përkthimi Improvizuar:
 https://github.com/MrD1abl0/GSCP-Translation
 
 
 Lojrat e Mbështetura:
 
-Full support:
+Mbështetje e plotë:
 - Source engine
 - Alien Swarm
 - Black Mesa
@@ -59,12 +59,12 @@ Full support:
 - W: ET
 - Xash3D Engine
 
-Partial support:
+Mbështetje e pjesshme:
 - ARK: SE
 - Q World
 - Terraria
 
-Basic support:
+Mbështetje e thjeshtë:
 - KF
 - KF 2
 - Q Live
