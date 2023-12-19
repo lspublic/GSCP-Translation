@@ -1,37 +1,37 @@
 <?xml version="1.0" encoding="utf-8"?>
 <changelog>
     <release versionCode="31" versionName="1.0.1" date="08.10.2023">
-        <bugfix>Fixed rare crashes after minimizing app on the add/edit server screen</bugfix>
-        <bugfix>Fixed rare crashes after clicking the "Edit server" button on the servers list screen</bugfix>
-        <bugfix>Fixed crashes in player ban dialog on GoldSource servers with FreshBans</bugfix>
-        <bugfix>Fixed auth errors after map change on Source servers</bugfix>
-        <bugfix>Fixed invalid home screen widget outline in landscape orientation</bugfix>
-        <bugfix>Fixed RCON for SA-MP servers if the server address is specified as a URL</bugfix>
-        <info>Improved chat/log listener stability</info>
-        <info>Minor improvements and fixes</info>
+        <bugfix>Rregullimi i përplasjes gjatë zvogëlimit app dhe shtimit/ndryshimit pamjes serverit</bugfix>
+        <bugfix>Rregullimi i përplasjes tek komanda "Ndrysho Serverin" tek butoni pamjes serverit</bugfix>
+        <bugfix>Rregullimi i përplasjes me serverat GoldSource me FreshBans</bugfix>
+        <bugfix>Rregullimi i shumë problemeve tek Baza kryesore</bugfix>
+        <bugfix>Rregullimi tek miniaplikacioni tek baza</bugfix>
+        <bugfix>Rregullimi RCON per SA-MP serverat nëse adresa është specifikuar në URL</bugfix>
+        <info>Improvizimi i bisedës/historikut stabiliteti të dëgjuesit</info>
+        <info>Përmirësime dhe rregullime të vogla</info>
     </release>
     <release versionCode="30" versionName="1.0.0" date="10.09.2023">
-        <new>Support Android 12 and 12L</new>
-        <new>Support Vulpecula.HOST and PufferPanel API</new>
-        <new>Chat</new>
-        <new>Addons manager</new>
-        <new>Players mute for GoldSource and Xash3D FWGS servers</new>
-        <info>Improved log listener</info>
-        <info>Many minor improvements and fixes</info>
-        <info>Dropped support for Android 4.4 KitKat</info>
+        <new>Mbështetje për Android 12 dhe 12L</new>
+        <new>Mbështetje për Vulpecula.HOST dhe PufferPanel API</new>
+        <new>Bisedë</new>
+        <new>Menaxhimi Addonsave</new>
+        <new>Ndalimi bisedës për GoldSource dhe Xash3D FWGS serverat</new>
+        <info>Improvizimi degjimit te historikut</info>
+        <info>Shum përmirësime dhe rregullime të vogla</info>
+        <info>U largua mbështetja për Android 4.4 KitKat</info>
     </release>
     <release versionCode="29" versionName="0.9.7" date="28.08.2022">
-        <bugfix>Fixed crashes on Android 4.4 after app launch</bugfix>
-        <info>Minor improvements and fixes</info>
+        <bugfix>Rregullimi i përplasjeve në Android 4.4 pas ngarkimit app</bugfix>
+        <info>Disa gabime të korrigjuara</info>
     </release>
     <release versionCode="28" versionName="0.9.6" date="07.08.2022">
-        <bugfix>Fixed sending an invalid ban reason on Insurgency: Sandstorm servers</bugfix>
-        <bugfix>Fixed players list loading on Insurgency: Sandstorm servers if the server has EGS players</bugfix>
-        <info>Reduced installed app size</info>
-        <info>Many minor improvements and fixes</info>
+        <bugfix>Rregullimi problemit të ndalimit tek Insurgency: Sandstorm serverat</bugfix>
+        <bugfix>Rregullimi listës tek: Sandstorm serverat nese kanë EGS lojtarët</bugfix>
+        <info>Reduktimi madhësis së aplikacionit</info>
+        <info>Shumë gabime të rregulluara</info>
     </release>
     <release versionCode="27" versionName="0.9.5" date="09.04.2022">
-        <bugfix>Fixed freezes while opening the console</bugfix>
+        <bugfix>Rregullimet e problemit gjatë përdorimit të Panelit</bugfix>
         <bugfix>Fixed crashes after entering an invalid logs listening port</bugfix>
         <bugfix>Fixed SA-MP servers info loading if the server address is specified as a URL</bugfix>
         <bugfix>Fixed players list loading on Insurgency: Sandstorm servers</bugfix>
@@ -39,7 +39,7 @@
         <bugfix>Fixed the appearance of progress bars on Android 4.4</bugfix>
         <bugfix>Fixed virtual keyboard overlapping on console input field on Android 4.4</bugfix>
         <bugfix>Fixed double toolbar on Android 4.4-5.1</bugfix>
-        <info>Many minor improvements and fixes</info>
+        <info>Shumë gabime të rregulluara</info>
     </release>
     <release versionCode="26" versionName="0.9.4" date="09.01.2022">
         <bugfix>Fixed players list loading on some GoldSource servers</bugfix>
@@ -47,7 +47,7 @@
         <bugfix>Fixed detection of players access flags on GoldSource servers</bugfix>
         <bugfix>Fixed getting corrupted data when executing large RCON requests on Sven Co-op servers</bugfix>
         <bugfix>Fixed unnecessary auth attempts on Source and GoldSource servers if RCON password is not specified</bugfix>
-        <info>Minor improvements and fixes</info>
+        <info>Shumë gabime të rregulluara</info>
     </release>
     <release versionCode="25" versionName="0.9.3" date="31.10.2021">
         <bugfix>Fixed wrong calculation of players/bots count on Source servers with Source TV</bugfix>
@@ -55,7 +55,7 @@
         <bugfix>Fixed unavailability of some GoldSource servers</bugfix>
         <bugfix>Fixed items dragging on the RCON shortcuts editing dialog</bugfix>
         <info>Improved validation of user-entered server info</info>
-        <info>Minor improvements and fixes</info>
+        <info>Shumë gabime të rregulluara</info>
     </release>
     <release versionCode="24" versionName="0.9.2" date="29.08.2021">
         <bugfix>Fixed home screen widget settings screen in landscape orientation</bugfix>
@@ -120,8 +120,8 @@
         <bugfix>Fixed loading of players list if goldsource server using HLTV</bugfix>
         <bugfix>Fixed loading avatars after scrolling players list</bugfix>
         <info>Minor UI changes</info>
-        <info>Reduced app size</info>
-        <info>Updated supported languages list[br](Thanks Pjeter Jetishi)</info>
+        <info>Reduktimi madhësis së aplikacionit</info>
+        <info>Përditësim listës së gjuhëve[br](Faleminderit Pjeter Jetishi)</info>
     </release>
     <release versionCode="17" versionName="0.8.5" date="01.06.2019">
         <bugfix>Rregullimi bllokimit gjatë hapjes së Open GP</bugfix>
