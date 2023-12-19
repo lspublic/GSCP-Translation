@@ -1,55 +1,55 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Actions-->
-    <string name="action_removeads">Fshijë Reklamat</string>
+    <!--Veprimet-->
+    <string name="action_removeads">Fshij Reklamat</string>
     <string name="action_ban">Ndalo</string>
     <string name="action_kick">Largo</string>
     <string name="action_mute">Pa zë</string>
     <string name="action_steam">Profili Steam</string>
 
 
-    <!--Server statuses-->
-    <string name="status_unknown">Unknown</string>
-    <string name="status_online">Online</string>
-    <string name="status_offline">Offline</string>
-    <string name="status_restarting">Loading/Restarting</string>
-    <string name="status_refreshing">Refreshing…</string>
-    <string name="status_error">Error</string>
+    <!--Statuset Serverit-->
+    <string name="status_unknown">Panjohur</string>
+    <string name="status_online">Aktiv</string>
+    <string name="status_offline">Joaktiv</string>
+    <string name="status_restarting">Ngarkuar/Rifilluar</string>
+    <string name="status_refreshing">Rifreskim…</string>
+    <string name="status_error">Gabim</string>
 
 
-    <!--Server implementation-->
-    <string name="game_indicator_basic_info">Basic server info</string>
-    <string name="game_indicator_version_checking">Server outdated alert</string>
-    <string name="game_indicator_console">Console</string>
-    <string name="game_indicator_console_autocomplete">Console autocomplete and cvars list</string>
-    <string name="game_indicator_performance">Used resources</string>
-    <string name="game_indicator_map_change">Map change</string>
-    <string name="game_indicator_players_info">Extended players info</string>
-    <string name="game_indicator_players_actions">Ban/Kick/Mute</string>
-    <string name="game_indicator_log_listen">Log listening</string>
-    <string name="game_indicator_chat">Chat</string>
-    <string name="game_indicator_addons_manager">Addons manager</string>
+    <!--Implementimi Serverit-->
+    <string name="game_indicator_basic_info">Të dhënat bazike</string>
+    <string name="game_indicator_version_checking">Paralajmërim vjetërsuar</string>
+    <string name="game_indicator_console">Paneli</string>
+    <string name="game_indicator_console_autocomplete">Paneli automatik dhe lista cvar</string>
+    <string name="game_indicator_performance">Burimet e përdorura</string>
+    <string name="game_indicator_map_change">Ndryshimi Hartës</string>
+    <string name="game_indicator_players_info">Informacione të zgjeruara për lojtarët</string>
+    <string name="game_indicator_players_actions">Ndalo/Largo/Blloko</string>
+    <string name="game_indicator_log_listen">Dëgjimi Historikut</string>
+    <string name="game_indicator_chat">Biseda</string>
+    <string name="game_indicator_addons_manager">Menaxhimi Addonsave</string>
 
-    <string name="any_type_auto">Autoselect</string>
-    <string name="any_type_engine">Engine</string>
-    <string name="any_type_engine2">Engine 2</string>
+    <string name="any_type_auto">Përzgjedhja Automatike</string>
+    <string name="any_type_engine">Motorri</string>
+    <string name="any_type_engine2">Motorri 2</string>
 
-    <string name="ban_mode_name">Nickname</string>
+    <string name="ban_mode_name">Pseudonimi</string>
 
     <string name="mute_mode_both">Dyjat</string>
     <string name="mute_mode_voice">Zërin</string>
-    <string name="mute_mode_chat">Chatin</string>
+    <string name="mute_mode_chat">Bisedën</string>
 
-    <string name="host_indicator_extra_info">Extra server info</string>
-    <string name="host_indicator_server_actions">Server start/restart/stop</string>
+    <string name="host_indicator_extra_info">Informata shtesë serverit</string>
+    <string name="host_indicator_server_actions">Server fillo/rifillo/ndalo</string>
 
     <string name="parsed_error_conn">Dështoi të lidhet</string>
     <string name="parsed_error_auth">Gabim i Autorizimit</string>
-    <string name="parsed_error_ban">Dënoj prej serverit</string>
+    <string name="parsed_error_ban">Gabim prej serverit</string>
     <string name="parsed_error_gamenotfound">Përmbajtja serverit nuk u gjetë</string>
-    <string name="parsed_error_cmd">Unknown command</string>
+    <string name="parsed_error_cmd">Komand panjohur</string>
     <string name="parsed_error_token">Qelës i pavlefshëm</string>
-    <string name="parsed_error_url">Invalid URL</string>
+    <string name="parsed_error_url">URL Pavlefshme</string>
     <string name="parsed_error_invalid_response_api">Invalid API response</string>
     <string name="parsed_error_invalid_response_server">Invalid server response</string>
     <string name="parsed_error_empty_response">Empty response</string>
