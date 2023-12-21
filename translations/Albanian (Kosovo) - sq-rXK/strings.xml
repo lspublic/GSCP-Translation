@@ -1,6 +1,6 @@
 <?xml version="1.0" encoding="utf-8"?>
 <resources>
-    <!--Actions-->
+    <!--Veprimet-->
     <string name="action_removeads">Fshijë Reklamat</string>
     <string name="action_ban">Ndalo</string>
     <string name="action_kick">Largo</string>
@@ -8,19 +8,19 @@
     <string name="action_steam">Profili Steam</string>
 
 
-    <!--Server statuses-->
-    <string name="status_unknown">Unknown</string>
-    <string name="status_online">Online</string>
-    <string name="status_offline">Offline</string>
-    <string name="status_restarting">Loading/Restarting</string>
-    <string name="status_refreshing">Refreshing…</string>
-    <string name="status_error">Error</string>
+    <!--Statusi Serverit-->
+    <string name="status_unknown">Panjohur</string>
+    <string name="status_online">Aktiv</string>
+    <string name="status_offline">Joaktiv</string>
+    <string name="status_restarting">Ngarkuar/Rifilluar</string>
+    <string name="status_refreshing">Rifreskuar…</string>
+    <string name="status_error">Gabim</string>
 
 
     <!--Server implementation-->
-    <string name="game_indicator_basic_info">Basic server info</string>
+    <string name="game_indicator_basic_info">Informatat Bazike Serverit</string>
     <string name="game_indicator_version_checking">Server outdated alert</string>
-    <string name="game_indicator_console">Console</string>
+    <string name="game_indicator_console">Paneli</string>
     <string name="game_indicator_console_autocomplete">Console autocomplete and cvars list</string>
     <string name="game_indicator_performance">Used resources</string>
     <string name="game_indicator_map_change">Map change</string>
@@ -564,49 +564,49 @@
     <string name="pref_notify_title">Server outdate notification</string>
     <string name="pref_notify_descr">Only if checking is enabled in the server settings</string>
     <string name="pref_logsport_title">Logs listening port</string>
-    <string name="pref_logsport_descr">This port must be open on the router</string>
-    <string name="pref_logsport_error_empty">The field must not be empty</string>
-    <string name="pref_logsport_error_minmax">The field can have a value from 1024 to 65535</string>
-    <string name="pref_logsport_error_alrused">Port already in use</string>
-    <string name="pref_logsupnp_descr">Use UPnP to automatically open the port</string>
+    <string name="pref_logsport_descr">Ky port duhet të jetë i hapur në Router</string>
+    <string name="pref_logsport_error_empty">Fusha nuk duhet të jetë boshë</string>
+    <string name="pref_logsport_error_minmax">Fusha mund të ketë vlerë nga 1024 deri 65535</string>
+    <string name="pref_logsport_error_alrused">Port aktualisht duke u përdorur</string>
+    <string name="pref_logsupnp_descr">Përdore UPnP për hapjen automatike Port</string>
 
     <string name="pref_ui_theme">Theme</string>
-    <string name="pref_ui_theme_entry_light">Light</string>
-    <string name="pref_ui_theme_entry_dark">Dark</string>
-    <string name="pref_ui_theme_entry_default">System default</string>
-    <string name="pref_ui_compact_title_title">Compact titles</string>
-    <string name="pref_ui_compact_title_descr">Server names and player names</string>
-    <string name="pref_ui_compact_servers_title">Compact servers list</string>
-    <string name="pref_ui_servers_sort_type">Servers list sorting</string>
-    <string name="pref_ui_servers_sort_type_entry_date">Add date</string>
-    <string name="pref_ui_servers_sort_type_entry_name">Title</string>
-    <string name="pref_ui_servers_sort_type_entry_game">Game</string>
-    <string name="pref_ui_servers_sort_ascending">Sort Ascending</string>
+    <string name="pref_ui_theme_entry_light">Dritë</string>
+    <string name="pref_ui_theme_entry_dark">Errët</string>
+    <string name="pref_ui_theme_entry_default">Sistem Rastësishëm</string>
+    <string name="pref_ui_compact_title_title">Titujt kompakt</string>
+    <string name="pref_ui_compact_title_descr">Emri serverit dhe emrat lojtarëve</string>
+    <string name="pref_ui_compact_servers_title">Lista kompakte e serverave</string>
+    <string name="pref_ui_servers_sort_type">Renditja listës serverave</string>
+    <string name="pref_ui_servers_sort_type_entry_date">Shto datën</string>
+    <string name="pref_ui_servers_sort_type_entry_name">Titulli</string>
+    <string name="pref_ui_servers_sort_type_entry_game">Loja</string>
+    <string name="pref_ui_servers_sort_ascending">Renditni</string>
 
-    <string name="pref_web_title">Web Resources</string>
-    <string name="pref_web_checking">URL checking…</string>
-    <string name="pref_web_founded">A mobile version of the site has been found. Use it? (Desktop version of the site may work incorrectly)</string>
+    <string name="pref_web_title">Web Burimet</string>
+    <string name="pref_web_checking">URL kontrolluar…</string>
+    <string name="pref_web_founded">Nje verzion per telefon u gjet. Përdore atë? (Verzioni për Ekran mund të ketë gabime)</string>
 
     <string name="pref_debug_title">Rregullimi</string>
     <string name="pref_debug_show_title">Rregullimet e debugimit</string>
     <string name="pref_debug_extrasrvinfo_title">Informacion shtesë mbi serverin</string>
-    <string name="pref_debug_adsdebug_title">Ads debug</string>
-    <string name="pref_debug_refresh_error_info_title">Display refresh error info</string>
-    <string name="pref_debug_refresh_error_info_descr">Display the cause of the error after the refresh on the server control screen</string>
-    <string name="pref_debug_refresh_error_send_title">Send refresh error info</string>
+    <string name="pref_debug_adsdebug_title">Rek debug</string>
+    <string name="pref_debug_refresh_error_info_title">Shfaq gabimin e rifreskimit</string>
+    <string name="pref_debug_refresh_error_info_descr">Shfaqni shkakun e gabimit pas rifreskimit në ekranin e kontrollit të serverit</string>
+    <string name="pref_debug_refresh_error_send_title">Dërgo gabimin e rifreskimit</string>
     <string name="pref_debug_refresh_error_send_descr">Send the cause of the error after the refresh on the server control screen to the developer</string>
     <string name="pref_debug_stacktrace_title">Vendosni gjurmë</string>
     <string name="pref_debug_stacktrace_descr">Trego gjurmën e pirgjeve nëse app u rrëzua</string>
     <string name="pref_debug_backgrounddialog_title">Dialogu i Historisë së Çastit</string>
     <string name="pref_debug_backgrounddialog_descr">Shfaq një dialog kur ndodh një gabim në sfond</string>
-    <string name="pref_debug_remoteconfig_descr">Reduce fetching interval</string>
+    <string name="pref_debug_remoteconfig_descr">Zvogëlo intervalin marrjes</string>
 
 
     <!--About-->
     <string name="about_debug_notify">Rregullimet e debugimit janë të disponueshme për përdorim</string>
-    <string name="about_description"><![CDATA[<strong>Translation authors:</strong><br>%1$s]]></string>
-    <string name="about_special1_name">Rate app</string>
-    <string name="about_special3_name">Translation</string>
+    <string name="about_description"><![CDATA[<strong>Autorë Përkthimit:</strong><br>%1$s]]></string>
+    <string name="about_special1_name">Vlerëso App</string>
+    <string name="about_special3_name">Përkthimet</string>
 
 
     <!--Other-->
